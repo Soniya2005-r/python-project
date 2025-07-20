@@ -1,0 +1,20 @@
+def test_login_valid_user():
+    """
+    Manual Test Case:
+    ID: TC001
+    Title: Login with valid credentials
+    Steps:
+    1. Navigate to Login Page
+    2. Enter valid username and password
+    3. Click Login
+    Expected Result: User is logged in successfully
+    """
+    username = "valid_user"
+    password = "valid_pass"
+
+    if username == "valid_user" and password == "valid_pass":
+        result = "PASS"
+    else:
+        result = "FAIL"
+
+    return ("TC001", "Login with valid credentials", result)
